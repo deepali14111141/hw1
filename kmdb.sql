@@ -76,6 +76,38 @@ CREATE TABLE directors (
     first_name TEXT,
     last_name TEXT
 );
+
+CREATE TABLE movies (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    title TEXT,
+    year_release INTEGER,
+    rating TEXT INTEGER,
+    director_id INTEGER
+);
+CREATE TABLE actors (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    first_name TEXT,
+    last_name TEXT
+);
+CREATE TABLE roles (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    first_name TEXT,
+    last_name TEXT,
+    actor_id INTEGER,
+    screen_time INTEGER,
+    movie_id INTEGER
+);
+CREATE TABLE actor_memberships (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    movie_id INTEGER,
+    actor_id INTEGER
+);
+DROP TABLE actor_memberships;
+CREATE TABLE actor_memberships (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    movie_id INTEGER,
+    actor_id INTEGER
+);
 -- Insert data into your database that reflects the sample data shown above
 -- Use hard-coded foreign key IDs when necessary
 -- TODO!
