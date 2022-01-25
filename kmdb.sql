@@ -249,6 +249,212 @@ VALUES (
     "Anne",
     "Hathway"
 );
+INSERT INTO roles (
+    first_name,
+    last_name,
+    actor_id,
+    screen_time,
+    movie_id
+)
+VALUES (
+    "Bruce",
+    "Wayne",
+    1,
+    100,
+    1
+);
+INSERT INTO roles (
+    first_name,
+    actor_id,
+    screen_time,
+    movie_id
+)
+VALUES (
+    "Alfred",
+    2,
+    90,
+    1
+);
+INSERT INTO roles (
+    first_name,
+    last_name,
+    actor_id,
+    screen_time,
+    movie_id
+)
+VALUES (
+    "Ra's",
+    "Al Ghul",
+    3,
+    85,
+    1
+);
+INSERT INTO roles (
+    first_name,
+    last_name,
+    actor_id,
+    screen_time,
+    movie_id
+)
+VALUES (
+    "Rachel",
+    "Dawes",
+    4,
+    80,
+    1
+);
+INSERT INTO roles (
+    first_name,
+    last_name,
+    actor_id,
+    screen_time,
+    movie_id
+)
+VALUES (
+    "Commissioner",
+    "Gordon",
+    5,
+    75,
+    1
+);
+INSERT INTO roles (
+    first_name,
+    last_name,
+    actor_id,
+    screen_time,
+    movie_id
+)
+VALUES (
+    "Bruce",
+    "Wayne",
+    1,
+    100,
+    2
+);
+INSERT INTO roles (
+    first_name,
+    actor_id,
+    screen_time,
+    movie_id
+)
+VALUES (
+    "Joker",
+    6,
+    99,
+    2
+);
+INSERT INTO roles (
+    first_name,
+    last_name,
+    actor_id,
+    screen_time,
+    movie_id
+)
+VALUES (
+    "Harvey",
+    "Dent",
+    7,
+    98,
+    2
+);
+INSERT INTO roles (
+    first_name,
+    actor_id,
+    screen_time,
+    movie_id
+)
+VALUES (
+    "Alfred",
+    2,
+    97,
+    2
+);
+INSERT INTO roles (
+    first_name,
+    last_name,
+    actor_id,
+    screen_time,
+    movie_id
+)
+VALUES (
+    "Rachel",
+    "Dawes",
+    8,
+    96,
+    2
+);
+INSERT INTO roles (
+    first_name,
+    last_name,
+    actor_id,
+    screen_time,
+    movie_id
+)
+VALUES (
+    "Bruce",
+    "Wayne",
+    1,
+    100,
+    3
+);
+INSERT INTO roles (
+    first_name,
+    last_name,
+    actor_id,
+    screen_time,
+    movie_id
+)
+VALUES (
+    "Commissioner",
+    "Gordon",
+    5,
+    90,
+    3
+);
+INSERT INTO roles (
+    first_name,
+    actor_id,
+    screen_time,
+    movie_id
+)
+VALUES (
+    "Bane",
+    9,
+    80,
+    3
+);
+INSERT INTO roles (
+    first_name,
+    last_name,
+    actor_id,
+    screen_time,
+    movie_id
+)
+VALUES (
+    "John",
+    "Blake",
+    10,
+    79,
+    3
+);
+INSERT INTO roles (
+    first_name,
+    last_name,
+    actor_id,
+    screen_time,
+    movie_id
+)
+VALUES (
+    "Selina",
+    "Kyle",
+    11,
+    78,
+    3
+);
+
+
+
+
 -- Prints a header for the movies output
 .print "Movies"
 .print "======"
