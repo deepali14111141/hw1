@@ -479,5 +479,6 @@ SELECT movies.title, actors.first_name, actors.last_name, roles.first_name, role
 FROM movies
 INNER JOIN roles ON movies.id = roles.movie_id
 INNER JOIN actor_memberships ON movies.id = actor_memberships.actor_id
+INNER JOIN actors ON actors.id = roles.actor_id
 GROUP BY roles.movie_id
 ORDER BY roles.screen_time DESC;
