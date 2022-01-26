@@ -451,6 +451,146 @@ VALUES (
     78,
     3
 );
+INSERT INTO roles (
+    first_name,
+    last_name,
+    actor_id,
+    screen_time,
+    movie_id
+)
+VALUES (
+    "Selina",
+    "Kyle",
+    11,
+    78,
+    3
+);
+INSERT INTO actor_memberships (
+    movie_id,
+    actor_id
+)
+VALUES (
+    1,
+    1
+);
+INSERT INTO actor_memberships (
+    movie_id,
+    actor_id
+)
+VALUES (
+    1,
+    2
+);
+INSERT INTO actor_memberships (
+    movie_id,
+    actor_id
+)
+VALUES (
+    1,
+    3
+);
+INSERT INTO actor_memberships (
+    movie_id,
+    actor_id
+)
+VALUES (
+    1,
+    4
+);
+INSERT INTO actor_memberships (
+    movie_id,
+    actor_id
+)
+VALUES (
+    1,
+    5
+);
+INSERT INTO actor_memberships (
+    movie_id,
+    actor_id
+)
+VALUES (
+    2,
+    1
+);
+INSERT INTO actor_memberships (
+    movie_id,
+    actor_id
+)
+VALUES (
+    2,
+    6
+);
+INSERT INTO actor_memberships (
+    movie_id,
+    actor_id
+)
+VALUES (
+    2,
+    7
+);
+INSERT INTO actor_memberships (
+    movie_id,
+    actor_id
+)
+VALUES (
+    2,
+    2
+);
+INSERT INTO actor_memberships (
+    movie_id,
+    actor_id
+)
+VALUES (
+    2,
+    8
+);
+INSERT INTO actor_memberships (
+    movie_id,
+    actor_id
+)
+VALUES (
+    3,
+    1
+);
+INSERT INTO actor_memberships (
+    movie_id,
+    actor_id
+)
+VALUES (
+    3,
+    5
+);
+INSERT INTO actor_memberships (
+    movie_id,
+    actor_id
+)
+VALUES (
+    3,
+    9
+);
+INSERT INTO actor_memberships (
+    movie_id,
+    actor_id
+)
+VALUES (
+    3,
+    10
+);
+INSERT INTO actor_memberships (
+    movie_id,
+    actor_id
+)
+VALUES (
+    3,
+    11
+);
+
+
+
+
+
+
 
 
 
