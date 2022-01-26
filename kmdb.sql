@@ -465,6 +465,8 @@ VALUES (
     78,
     3
 );
+DELETE FROM roles
+WHERE id = 16;
 INSERT INTO actor_memberships (
     movie_id,
     actor_id
@@ -615,10 +617,9 @@ INNER JOIN movies ON directors.id = movies.director_id;
 
 -- The SQL statement for the cast output
 -- TODO!
-SELECT movies.title, actors.first_name, actors.last_name, roles.first_name, roles.last_name, roles.movie_id
+SELECT movies.title, actors.first_name, actors.last_name, roles.first_name, roles.last_name
 FROM movies
 INNER JOIN roles ON movies.id = roles.movie_id
 INNER JOIN actor_memberships ON movies.id = actor_memberships.actor_id
 INNER JOIN actors ON actors.id = roles.actor_id
-GROUP BY roles.movie_id
-ORDER BY roles.screen_time DESC;
+ORDER BY roles.screen_time;
